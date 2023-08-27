@@ -1,0 +1,24 @@
+env: "local" # Окружение - local, dev или prod
+http_server: # конфигурация http-сервера
+  address: "localhost:8080"
+  timeout: 4s
+  idle_timeout: 30s
+schedule_storage: # конфигурация хранилища расписания авиарейсов
+  host: "localhost"
+  port: "5432"
+  user: "postgres"
+  password: "postgres"
+  dbname: "postgres"
+bus_storage: # конфигурация хранилища информации о автобусах
+  host: "localhost"
+  port: "5432"
+  user: "postgres"
+  password: "postgres"
+  dbname: "postgres"
+tasks_storage: # конфигурация хранилища задач
+  host: "localhost"
+  port: "5432"
+  user: "postgres"
+  password: "postgres"
+  dbname: "postgres"
+
