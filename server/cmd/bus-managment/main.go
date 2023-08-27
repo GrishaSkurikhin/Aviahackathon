@@ -36,7 +36,7 @@ func main() {
 	log.Info(
 		"starting bus-managment",
 		slog.String("env", cfg.Env),
-		slog.String("version", "1"),
+		slog.String("version", "2"),
 	)
 	log.Debug("debug messages are enabled")
 
